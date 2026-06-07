@@ -2913,3 +2913,45 @@ index creation(creation))
 ALTER TABLE `tabBook` ADD COLUMN `title` varchar(140), ADD COLUMN `isbn` varchar(140), ADD COLUMN `status` varchar(140)
 2026-06-03 16:21:22,245 WARNING database DDL Query made to DB:
 ALTER TABLE `tabBook` ADD COLUMN `publisher` varchar(140), ADD COLUMN `publication_date` date
+2026-06-07 12:54:16,447 WARNING database DDL Query made to DB:
+create table `tabLibrary Member` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2026-06-07 13:04:36,875 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Member` ADD COLUMN `first_name` varchar(140), ADD COLUMN `last_name` varchar(140), ADD COLUMN `email` varchar(140), ADD COLUMN `phone` varchar(140)
+2026-06-07 13:06:33,142 WARNING database DDL Query made to DB:
+create table `tabLoan` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2026-06-07 13:10:32,202 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` ADD COLUMN `applicant` varchar(140), ADD COLUMN `book` varchar(140), ADD COLUMN `transaction_date` date
+2026-06-07 13:12:23,078 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` ADD COLUMN `status` varchar(140)
