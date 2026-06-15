@@ -1,0 +1,26 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_b14e00068eaae6f1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _b14e00068eaae6f1 | /usr/bin/gzip >> ./demo.site/private/backups/20260609_200004-demo_site-database.sql.gz
+
+Backup Summary for demo.site at 2026-06-09 20:00:13.490724
+Config  : /home/frappe16/frappe-bench/sites/demo.site/private/backups/20260609_200004-demo_site-site_config_backup.json 127.0B
+Database: /home/frappe16/frappe-bench/sites/demo.site/private/backups/20260609_200004-demo_site-database.sql.gz 920.8KiB
+Backup for Site demo.site has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_b11632cb6fa69458 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _b11632cb6fa69458 | /usr/bin/gzip >> ./library.site/private/backups/20260609_200013-library_site-database.sql.gz
+
+Backup Summary for library.site at 2026-06-09 20:00:18.701133
+Config  : /home/frappe16/frappe-bench/sites/library.site/private/backups/20260609_200013-library_site-site_config_backup.json 127.0B
+Database: /home/frappe16/frappe-bench/sites/library.site/private/backups/20260609_200013-library_site-database.sql.gz 912.9KiB
+Backup for Site library.site has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_b14e00068eaae6f1 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _b14e00068eaae6f1 | /usr/bin/gzip >> ./demo.site/private/backups/20260612_140005-demo_site-database.sql.gz
+
+Backup Summary for demo.site at 2026-06-12 14:00:14.570840
+Config  : /home/frappe16/frappe-bench/sites/demo.site/private/backups/20260612_140005-demo_site-site_config_backup.json 127.0B
+Database: /home/frappe16/frappe-bench/sites/demo.site/private/backups/20260612_140005-demo_site-database.sql.gz 926.6KiB
+Backup for Site demo.site has been successfully completed
+File ./library.site/private/backups/20260609_200013-library_site-database.sql.gz is older than 24 hours
+File ./library.site/private/backups/20260609_200013-library_site-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_b11632cb6fa69458 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _b11632cb6fa69458 | /usr/bin/gzip >> ./library.site/private/backups/20260612_140014-library_site-database.sql.gz
+
+Backup Summary for library.site at 2026-06-12 14:00:17.623187
+Config  : /home/frappe16/frappe-bench/sites/library.site/private/backups/20260612_140014-library_site-site_config_backup.json 127.0B
+Database: /home/frappe16/frappe-bench/sites/library.site/private/backups/20260612_140014-library_site-database.sql.gz 938.9KiB
+Backup for Site library.site has been successfully completed
