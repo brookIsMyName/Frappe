@@ -2986,3 +2986,11 @@ alter table `tabAuthor Detail` add column if not exists parenttype varchar(140)
 alter table `tabAuthor Detail` add column if not exists parentfield varchar(140)
 2026-06-15 14:52:06,745 WARNING database DDL Query made to DB:
 ALTER TABLE `tabAuthor Detail` ADD COLUMN `author_name` varchar(140), ADD COLUMN `bio` text
+2026-06-15 15:57:04,049 WARNING database DDL Query made to DB:
+alter table `tabAuthor Detail` add column if not exists parent varchar(140)
+2026-06-15 15:57:04,055 WARNING database DDL Query made to DB:
+alter table `tabAuthor Detail` add column if not exists parenttype varchar(140)
+2026-06-15 15:57:04,059 WARNING database DDL Query made to DB:
+alter table `tabAuthor Detail` add column if not exists parentfield varchar(140)
+2026-06-17 16:01:09,897 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` ADD COLUMN `return_date` date

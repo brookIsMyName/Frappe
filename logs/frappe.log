@@ -73,3 +73,18 @@ Form Dict: {'txt': '', 'doctype': 'Library Member', 'ignore_user_permissions': '
 2026-06-10 16:39:03,450 ERROR frappe New Exception collected in error log
 Site: library.site
 Form Dict: {'txt': '', 'doctype': 'Library Member', 'ignore_user_permissions': '0', 'reference_doctype': 'Loan', 'page_length': '10', 'link_fieldname': 'applicant', 'cmd': 'frappe.desk.search.search_link'}
+2026-06-28 14:26:57,214 ERROR frappe New Exception collected in error log
+Site: library.site
+Form Dict: {'doctype': 'Loan', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2026-06-28 14:27:18,597 ERROR frappe New Exception collected in error log
+Site: library.site
+Form Dict: {'doctype': 'Loan', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2026-06-28 14:27:41,362 ERROR frappe New Exception collected in error log
+Site: library.site
+Form Dict: {'doctype': 'Loan', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2026-06-28 14:28:36,677 ERROR frappe New Exception collected in error log
+Site: library.site
+Form Dict: {'doctype': 'Loan', 'with_parent': '1', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2026-06-28 15:35:21,350 ERROR frappe New Exception collected in error log
+Site: library.site
+Form Dict: {'doc': '{"name":"The Lion King-00001","owner":"Administrator","creation":"2026-06-07 15:31:28.114686","modified":"2026-06-28 17:34:58.363102","modified_by":"Administrator","docstatus":0,"idx":1,"title":"The Lion King","isbn":"assessessed","status":"Returned","publisher":"sniggers","publication_date":"2026-06-01","doctype":"Book","authors":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
