@@ -2,5 +2,6 @@
  "db_name": "_b11632cb6fa69458",
  "db_password": "XVy1xtF1TxCHL4Kg",
  "db_type": "mariadb",
- "db_user": "_b11632cb6fa69458"
+ "db_user": "_b11632cb6fa69458",
+ "enable_system_console": 1
 }
